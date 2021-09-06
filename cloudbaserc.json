@@ -35,13 +35,13 @@
         "KOD_USERNAME": {
           "description": "管理控制台账号",
           "required": false,
-          "editable": false,
+          "disabled": true,
           "default": "admin"
         },
         "KOD_PASSWORD": {
           "description": "初始管理控制台密码",
           "required": false,
-          "editable": false,
+          "disabled": true,
           "default": ""
         }
       }
