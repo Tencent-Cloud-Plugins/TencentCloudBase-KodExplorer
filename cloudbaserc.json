@@ -19,7 +19,7 @@
           },
           "initialDelaySeconds": 10,
           "volumeMounts": {
-            "/baiyuetribe/kodexplorer": "kodexplorer-cfs"
+            "/var/www/html": "kodexplorer-cfs"
           }
         }
       }
@@ -32,13 +32,13 @@
         }
       ],
       "environment": {
-        "MEEDU_USERNAME": {
+        "KOD_USERNAME": {
           "description": "管理控制台账号",
           "required": false,
           "editable": false,
           "default": "admin"
         },
-        "MEEDU_PASSWORD": {
+        "KOD_PASSWORD": {
           "description": "初始管理控制台密码",
           "required": false,
           "editable": false,
